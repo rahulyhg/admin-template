@@ -2,12 +2,13 @@
 
 /**
  * @ngdoc function
- * @name adminApp.controller:MainCtrl
+ * @name adminApp.controller:LoginCtrl
  * @description
- * # MainCtrl
+ * # LoginCtrl
  * Controller of the adminApp
  */
 angular.module('adminApp')
-  .controller('MainCtrl', function () {
+  .controller('LoginCtrl', function () {
+
 
   });
