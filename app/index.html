@@ -1,56 +1,64 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.) styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ruda:400,700,900">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ruda:400,700,900">
 
-  </head>
-  <body ng-app="adminApp">
-    <!--[if lte IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-    <div ng-view=""></div>
+    </head>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-     <script>
-       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <body ng-app="adminApp">
 
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script>
+        <!--[if lte IE 8]>
+        <p class="browsehappy">Você está usando um navegador <strong>desatualizado</strong>. Por favor, <a href="http://browsehappy.com/">atualize seu navegador</a> para melhorar sua experiência nesse site.</p>
+        <![endif]-->
 
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.js"></script>
-    <script src="bower_components/angular-messages/angular-messages.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
+        <div ng-view=""></div>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+        <script>
+            !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+            (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+            r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+            }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-XXXXX-X');
+            ga('send', 'pageview');
+        </script>
+
+        <!-- build:js(.) scripts/vendor.js -->
+        <!-- bower:js -->
+            <script src="bower_components/jquery/dist/jquery.js"></script>
+            <script src="bower_components/angular/angular.js"></script>
+            <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+            <script src="bower_components/angular-aria/angular-aria.js"></script>
+            <script src="bower_components/angular-messages/angular-messages.js"></script>
+            <script src="bower_components/angular-resource/angular-resource.js"></script>
+            <script src="bower_components/angular-route/angular-route.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/login.js"></script>
+            <script src="scripts/app.js"></script>
+            <script src="scripts/controllers/main.js"></script>
+            <script src="scripts/controllers/login.js"></script>
         <!-- endbuild -->
-</body>
+    </body>
 </html>
